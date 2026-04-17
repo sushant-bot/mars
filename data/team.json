@@ -1,120 +1,72 @@
 [
   {
     "id": "faculty-1",
-    "name": "Dr. Meera Nair",
-    "role": "Faculty Advisor - Robotics",
+    "name": "Dr Shreepad Sarange",
+    "role": "Faculty Advisor",
     "section": "faculty",
-    "image": "/placeholder-user.jpg",
-    "linkedin": "https://www.linkedin.com"
-  },
-  {
-    "id": "faculty-2",
-    "name": "Prof. Arjun Patel",
-    "role": "Faculty Mentor - Automation",
-    "section": "faculty",
-    "image": "/placeholder-user.jpg",
-    "linkedin": "https://www.linkedin.com"
+    "image": "/placeholder-user.jpg"
   },
   {
     "id": "core-1",
-    "name": "Riya Sharma",
-    "role": "President",
+    "name": "Mr. Satyam Mistari",
+    "role": "TE - President",
     "section": "core",
-    "image": "/placeholder-user.jpg",
-    "linkedin": "https://www.linkedin.com"
+    "image": "/placeholder-user.jpg"
   },
   {
     "id": "core-2",
-    "name": "Vedant Rao",
-    "role": "Vice President",
+    "name": "Mr. Sagar Gutal",
+    "role": "SE - Vice President",
     "section": "core",
-    "image": "/placeholder-user.jpg",
-    "linkedin": "https://www.linkedin.com"
+    "image": "/placeholder-user.jpg"
   },
   {
     "id": "core-3",
-    "name": "Isha Kulkarni",
-    "role": "Tech Lead - Embedded",
+    "name": "Ms. Shreya Vaidya",
+    "role": "SE - Secretary",
     "section": "core",
-    "image": "/placeholder-user.jpg",
-    "linkedin": "https://www.linkedin.com"
+    "image": "/placeholder-user.jpg"
   },
   {
     "id": "core-4",
-    "name": "Kunal Joshi",
-    "role": "Tech Lead - Mechanical",
+    "name": "Mr. Avishkar Durgude",
+    "role": "TE - Treasurer",
     "section": "core",
     "image": "/placeholder-user.jpg"
   },
   {
     "id": "core-5",
-    "name": "Sana Khan",
-    "role": "Events Coordinator",
+    "name": "Mr. Vikram Pathare",
+    "role": "SE - Sponsorship Head",
     "section": "core",
-    "image": "/placeholder-user.jpg",
-    "linkedin": "https://www.linkedin.com"
+    "image": "/placeholder-user.jpg"
   },
   {
     "id": "core-6",
-    "name": "Aditya Menon",
-    "role": "Outreach Lead",
+    "name": "Ms. Swarada Naphade",
+    "role": "SE - Marketing Head",
     "section": "core",
     "image": "/placeholder-user.jpg"
   },
   {
-    "id": "member-1",
-    "name": "Anika Bose",
-    "role": "Member",
-    "section": "members",
+    "id": "core-7",
+    "name": "Mr. Nayan Patil",
+    "role": "TE - Technical Head",
+    "section": "core",
     "image": "/placeholder-user.jpg"
   },
   {
-    "id": "member-2",
-    "name": "Harsh Verma",
-    "role": "Member",
-    "section": "members",
+    "id": "core-8",
+    "name": "Mr. Sushant Chavan",
+    "role": "TE - Research & Development Head",
+    "section": "core",
     "image": "/placeholder-user.jpg"
   },
   {
-    "id": "member-3",
-    "name": "Nitin George",
-    "role": "Member",
-    "section": "members",
-    "image": "/placeholder-user.jpg"
-  },
-  {
-    "id": "member-4",
-    "name": "Suhani Das",
-    "role": "Member",
-    "section": "members",
-    "image": "/placeholder-user.jpg"
-  },
-  {
-    "id": "member-5",
-    "name": "Yash Agrawal",
-    "role": "Member",
-    "section": "members",
-    "image": "/placeholder-user.jpg"
-  },
-  {
-    "id": "member-6",
-    "name": "Preeti Iyer",
-    "role": "Member",
-    "section": "members",
-    "image": "/placeholder-user.jpg"
-  },
-  {
-    "id": "member-7",
-    "name": "Mohit Batra",
-    "role": "Member",
-    "section": "members",
-    "image": "/placeholder-user.jpg"
-  },
-  {
-    "id": "member-8",
-    "name": "Nisha Reddy",
-    "role": "Member",
-    "section": "members",
+    "id": "core-9",
+    "name": "Ms. Namrata Gaikwad",
+    "role": "SE - Training/Workshop Head",
+    "section": "core",
     "image": "/placeholder-user.jpg"
   }
 ]

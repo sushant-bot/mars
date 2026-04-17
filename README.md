@@ -94,7 +94,4 @@ Typical deployment flow:
 3. Set the build command to `pnpm build`.
 4. Set the start command to `pnpm start` if required.
 
-## Notes
 
-- The repository currently includes some legacy portfolio-related files from an earlier template, but the MARS CLUB pages are the main experience.
-- If you add new sections, keep them consistent with the existing dark, engineering-first visual language.
