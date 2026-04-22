@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   title: "MARS CLUB | Mechanical Automation Robotics Society",
   description:
     "Official website of MARS CLUB - Mechanical Automation Robotics Society. Building intelligent machines and future-ready engineers through robotics, automation, and hands-on innovation.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({

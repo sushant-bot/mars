@@ -18,7 +18,7 @@
     "name": "Mr. Sagar Gutal",
     "role": "SE - Vice President",
     "section": "core",
-    "image": "/placeholder-user.jpg"
+    "image": "/images/team/Sagar.jpeg"
   },
   {
     "id": "core-3",
@@ -32,14 +32,14 @@
     "name": "Mr. Avishkar Durgude",
     "role": "TE - Treasurer",
     "section": "core",
-    "image": "/placeholder-user.jpg"
+    "image": "/images/team/Avishkar.jpeg"
   },
   {
     "id": "core-5",
     "name": "Mr. Sushant Chavan",
     "role": "TE - Research & Development Head",
     "section": "core",
-    "image": "/images/team/sushant-chavan.jpg"
+    "image": "/images/team/sushant_chavan.jpeg"
   },
   {
     "id": "core-6",
@@ -53,7 +53,7 @@
     "name": "Mr. Nayan Patil",
     "role": "TE - Technical Head",
     "section": "core",
-    "image": "/placeholder-user.jpg"
+    "image": "/images/team/nayan.jpeg"
   },
   {
     "id": "core-8",
