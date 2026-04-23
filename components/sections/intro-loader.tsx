@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 
 export function IntroLoader({ onComplete }: { onComplete: () => void }) {
   const [phase, setPhase] = useState(0)
@@ -61,6 +61,7 @@ export function IntroLoader({ onComplete }: { onComplete: () => void }) {
           top: 0,
           animation: "scanLine 1.8s ease-in-out forwards",
           pointerEvents: "none",
+          willChange: "transform, opacity",
         }}
       />
 
@@ -168,7 +169,8 @@ export function IntroLoader({ onComplete }: { onComplete: () => void }) {
             background: "linear-gradient(90deg, #2563eb, #0ea5e9)",
             borderRadius: "999px",
             animation: "loadBar 1.8s ease-in-out forwards",
-            willChange: "width",
+            transformOrigin: "left center",
+            willChange: "transform",
           }}
         />
       </div>
@@ -176,14 +178,14 @@ export function IntroLoader({ onComplete }: { onComplete: () => void }) {
       {/* Keyframe styles injected inline */}
       <style>{`
         @keyframes scanLine {
-          0%   { top: 0%;   opacity: 0; }
+          0%   { transform: translate3d(0, 0, 0); opacity: 0; }
           10%  { opacity: 0.8; }
           90%  { opacity: 0.8; }
-          100% { top: 100%; opacity: 0; }
+          100% { transform: translate3d(0, 100vh, 0); opacity: 0; }
         }
         @keyframes loadBar {
-          0%   { width: 0%; }
-          100% { width: 100%; }
+          0%   { transform: scaleX(0); }
+          100% { transform: scaleX(1); }
         }
       `}</style>
     </div>
