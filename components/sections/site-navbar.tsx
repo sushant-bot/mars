@@ -53,8 +53,8 @@ export function SiteNavbar() {
       >
         <div className="flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href="/" className="inline-flex items-center gap-3 text-text-primary group">
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-blue-200/60 bg-gradient-to-br from-blue-600 to-sky-500 text-[13px] font-black tracking-[0.08em] text-white shadow-[0_2px_8px_rgba(25,118,210,0.25)] transition-shadow duration-300 group-hover:shadow-[0_0_16px_rgba(25,118,210,0.4)]">
-              M
+            <span className="inline-flex h-9 w-9 items-center justify-center overflow-hidden rounded-lg bg-white shadow-[0_2px_8px_rgba(25,118,210,0.25)] transition-shadow duration-300 group-hover:shadow-[0_0_16px_rgba(25,118,210,0.4)]">
+              <img src="/logo.png" alt="MARS Logo" className="h-full w-full object-contain p-0.5" />
             </span>
             <span className="flex flex-col leading-none">
               <span className="text-[15px] font-bold tracking-[0.12em] text-text-primary sm:text-[16px]">MARS CLUB</span>
